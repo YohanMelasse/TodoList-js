@@ -1,3 +1,5 @@
+// function that create element using key, values Object
+
 const createElement = (tag, attibute = {}) => {
     const element = document.createElement(tag);
     for (const [key, value] of Object.entries(attibute)){
